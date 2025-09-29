@@ -3,7 +3,7 @@ import { Game } from '../pages/Home'
 
 const api = createApi({
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://fake-api-tau.vercel.app/api/eplay'
+    baseUrl: 'https://fake-api-tau.vercel.app/api/eplay/'
   }),
   endpoints: (builder) => ({
     getFeaturedGame: builder.query<Game, void>({
